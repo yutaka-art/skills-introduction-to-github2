@@ -51,7 +51,7 @@ jobs:
 
       - name: Update comment - congratulate first PR
         run: |
-          message="You've created your first pull request. Nice work! ✨🎉 Now, let's check your work."
+          message="最初のプルリクエストを作成しました。いい仕事です！✨🎉 さあ、あなたの作業を確認しましょう。"
           gh issue comment "$ISSUE_URL" \
             --body "$message" \
             --edit-last
@@ -78,13 +78,13 @@ jobs:
           # Check pull request title
           if [ "${{ github.event.pull_request.title }}" != "Add my first file" ]; then
             checks=$(echo $checks | jq '.pr_title.passed = false')
-            checks=$(echo $checks | jq '.pr_title.message = "Incorrect title"')
+            checks=$(echo $checks | jq '.pr_title.message = "タイトルが正しくありません"')
           fi
 
           # Check if a pull request description exists
           if [ "${{ github.event.pull_request.body }}" == "" ]; then
             checks=$(echo $checks | jq '.pr_description.passed = false')
-            checks=$(echo $checks | jq '.pr_description.message = "Empty pull request description"')
+            checks=$(echo $checks | jq '.pr_description.message = "プルリクエストの説明が空です"')
           fi
 
           # Verify all checks passed

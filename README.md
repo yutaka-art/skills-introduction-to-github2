@@ -1,51 +1,51 @@
-# Introduction to GitHub
+# GitHub入門
 
-_Get started using GitHub in less than an hour._
+_1時間以内でGitHubの使い方を始めましょう。_
 
-## Welcome
+## ようこそ
 
-People use GitHub to build some of the most advanced technologies in the world. Whether you’re visualizing data or building a new game, there’s a whole community and set of tools on GitHub that can help you do it even better. GitHub Skills’ “Introduction to GitHub” exercise guides you through everything you need to start contributing in less than an hour.
+GitHubは、世界で最も先進的な技術のいくつかを構築するために使われています。データの可視化や新しいゲームの開発など、GitHubにはそれをさらに良くするためのコミュニティやツールが揃っています。GitHub Skillsの「GitHub入門」演習では、1時間以内に貢献を始めるために必要なすべてを案内します。
 
-- **Who is this for**: New developers, new GitHub users, and students.
-- **What you'll learn**: We'll introduce repositories, branches, commits, and pull requests.
-- **What you'll build**: We'll make a short Markdown file you can use as your [profile README](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme).
-- **Prerequisites**: None. This exercise is a great introduction for your first day on GitHub.
-- **How long**: This exercise takes less than one hour to complete.
+- **対象者**: 新しい開発者、GitHub初心者、学生
+- **学べること**: リポジトリ、ブランチ、コミット、プルリクエストについて紹介します。
+- **作成するもの**: [プロフィールREADME](https://docs.github.com/ja/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)として使える短いMarkdownファイルを作成します。
+- **前提条件**: なし。この演習はGitHub初日の方にも最適です。
+- **所要時間**: 1時間以内で完了します。
 
-In this exercise, you will:
+この演習で行うこと:
 
-1. Create a branch
-2. Commit a file
-3. Open a pull request
-4. Merge your pull request
+1. ブランチを作成する
+2. ファイルをコミットする
+3. プルリクエストを作成する
+4. プルリクエストをマージする
 
-### How to start this exercise
+### この演習の始め方
 
-1. Right-click **Copy Exercise** and open the link in a new tab.
+1. **Copy Exercise** を右クリックし、新しいタブでリンクを開いてください。
 
    <a id="copy-exercise">
       <img src="https://img.shields.io/badge/📠_Copy_Exercise-AAA" height="25pt"/>
    </a>
 
-2. In the new tab, most of the prompts will automatically fill in for you.
-   - For owner, choose your personal account or an organization to host the repository.
-   - We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.chttps://github.com/yutaka-art/skills-introduction-to-github2/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-   - Scroll down and click the **Create repository** button at the bottom of the form.
+2. 新しいタブでは、ほとんどの入力欄が自動で入力されます。
+   - オーナーには、ご自身のアカウントまたは組織を選択してください。
+   - プライベートリポジトリは[Actionsの利用分が課金](https://docs.github.chttps://github.com/yutaka-art/skills-introduction-to-github2/billing/managing-billing-for-github-actions/about-billing-for-github-actions)されるため、パブリックリポジトリを推奨します。
+   - フォームの一番下にある **Create repository** ボタンをクリックしてください。
 
-3. After your new repository is created, wait about 20 seconds for the exercise to be prepared and buttons updated. You will continue working from your copy of the exercise.
-   - The **Copy Exercise** button will deactivate, changing to gray.
-   - The **Start Exercise** button will activate, changing to green.
-   - You will likely need to refresh the page.
+3. 新しいリポジトリが作成されたら、演習の準備とボタンの更新のために約20秒待ちます。その後はご自身の演習用リポジトリで作業を続けます。
+   - **Copy Exercise** ボタンは非アクティブ（グレー）になります。
+   - **Start Exercise** ボタンがアクティブ（緑）になります。
+   - ページを更新する必要がある場合があります。
 
-4. Click **Start Exercise**. Follow the step-by-step instructions and feedback will be provided as you progress.
+4. **Start Exercise** をクリックしてください。ステップごとの指示に従い、進捗に応じてフィードバックが表示されます。
 
    <a id="start-exercise" href="https://github.com/yutaka-art/skills-introduction-to-github2/issues/1">
       <img src="https://img.shields.io/badge/🚀_Start_Exercise-008000" height="25pt"/>
    </a>
 
 > [!IMPORTANT]
-> The **Start Exercise** button will activate after copying the repository. You will probably need to refresh the page.
+> **Start Exercise** ボタンはリポジトリをコピーした後に有効になります。ページを更新する必要がある場合があります。
 
 ---
 
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+&copy; 2025 GitHub &bull; [行動規範](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MITライセンス](https://gh.io/mit)
